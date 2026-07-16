@@ -954,7 +954,7 @@ nav {
 }
 
 /* 3-col brief/result/impact */
-.modal-3col {
+.modal-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1px;
@@ -1327,7 +1327,7 @@ footer {
     grid-template-columns: repeat(2, 1fr)
   }
 
-  .modal-3col,
+  .modal-grid,
   .ba-grid,
   .results-grid {
     grid-template-columns: 1fr
