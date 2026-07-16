@@ -2852,3 +2852,16 @@
          font-size: .8rem;
      }
  }
+.case-study {
+    padding: 32px;
+    border: 1px solid var(--b);
+    border-radius: 10px;
+    background: var(--bg);
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: left;
+}
+.case-study h3 { margin-bottom: 16px; color: var(--tp); }
+.case-study h4 { margin-top: 24px; margin-bottom: 8px; color: var(--tm); }
+.case-study p { color: var(--tm); margin-bottom: 16px; line-height: 1.6; font-size: 0.95rem; }
+
