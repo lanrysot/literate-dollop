@@ -3,15 +3,15 @@
 
       /* ── CASE STUDY DATA ── */
       var PROJECTS = [        {
-          cat: "Explainer", client: "AcmeFlow",
-          title: "AcmeFlow AI-Powered Project Management Platform",
+          cat: "Explainer", client: "Revizze",
+          title: "Revizze AI-Powered Project Management Platform",
           tagline: "The video will be used on the homepage, in paid LinkedIn campaigns, and by the sales team during product demos.",
           details: [
-            { title: "Project Overview", content: "Create a 90-second product launch video introducing AcmeFlow's AI-powered project management platform. The video will be used on the homepage, in paid LinkedIn campaigns, and by the sales team during product demos." },
-            { title: "The Brief", content: "AcmeFlow was preparing for a new product launch targeting operations managers at growing companies. The goal was to clearly communicate the platform's value in under 90 seconds while positioning it as a faster, smarter alternative to manual project management tools. The video needed to work across multiple channels without requiring different edits." },
+            { title: "Project Overview", content: "Create a 90-second product launch video introducing Revizze's AI-powered project management platform. The video will be used on the homepage, in paid LinkedIn campaigns, and by the sales team during product demos." },
+            { title: "The Brief", content: "Revizze was preparing for a new product launch targeting operations managers at growing companies. The goal was to clearly communicate the platform's value in under 90 seconds while positioning it as a faster, smarter alternative to manual project management tools. The video needed to work across multiple channels without requiring different edits." },
             { title: "Research", content: "I spent time understanding the product from the perspective of a first-time user, mapping the onboarding flow, key features, and most common pain points. I also reviewed competitor videos from Asana, Monday.com, ClickUp, and Notion to identify common messaging patterns and opportunities to differentiate the narrative." },
             { title: "Creative Strategy", content: "Rather than explaining every feature, I focused the story around one measurable benefit: helping teams save time every week. This became the central message, allowing every animation, transition, and UI sequence to reinforce a single outcome instead of competing for attention." },
-            { title: "Script Development", content: "The script followed a simple progression: introduce the problem, highlight the frustrations of manual project management, demonstrate how AcmeFlow solves those challenges through AI automation, and finish with a clear invitation to start a free trial." },
+            { title: "Script Development", content: "The script followed a simple progression: introduce the problem, highlight the frustrations of manual project management, demonstrate how Revizze solves those challenges through AI automation, and finish with a clear invitation to start a free trial." },
             { title: "Storyboard", content: "Each scene was sketched before animation began, allowing the pacing and visual hierarchy to be reviewed early. This helped validate the narrative flow before investing time in design and motion." },
             { title: "Animatic", content: "Before production, I assembled a timed animatic using storyboard frames and the approved voiceover to validate pacing, scene timing, and narrative flow. This allowed key stakeholders to review the structure and make adjustments before animation began, reducing revisions later in production." },
             { title: "Style Exploration", content: "The visual language combined clean typography, generous spacing, subtle gradients, and minimal interface design. Motion references were inspired by modern SaaS brands, emphasizing clarity over decorative animation." },
@@ -185,7 +185,20 @@
         document.getElementById('mClient').textContent = d.client;
         document.getElementById('mTitle').innerHTML = d.title;
         document.getElementById('mTagline').textContent = d.tagline;
-        var mGrid = document.querySelector('.modal-3col'); mGrid.innerHTML = ''; if(d.details){ d.details.forEach(function(det){ var cell = document.createElement('div'); cell.className = 'm3cell'; cell.innerHTML = '<div class="m3label"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><line x1="12" y1="8" x2="12" y2="12" /><line x1="12" y1="16" x2="12.01" y2="16" /></svg>' + det.title + '</div><p class="m3val">' + det.content + '</p>'; mGrid.appendChild(cell); }); }
+        
+        
+        var mGrid = document.getElementById("mSections");
+        if(mGrid) {
+            mGrid.innerHTML = "";
+            if (d.details) {
+                d.details.forEach(function(det) {
+                    var cell = document.createElement("div");
+                    cell.className = "m3cell";
+                    cell.innerHTML = "<div class=\"m3label\"><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10\" /><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\" /><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\" /></svg>" + det.title + "</div><p class=\"m3val\">" + det.content + "</p>";
+                    mGrid.appendChild(cell);
+                });
+            }
+        }
         document.getElementById('mBefore').textContent = d.before;
         document.getElementById('mAfter').textContent = d.after;
         // results
