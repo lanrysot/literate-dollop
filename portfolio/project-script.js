@@ -173,9 +173,9 @@
         document.getElementById('mClient').textContent = d.client;
         document.getElementById('mTitle').innerHTML = d.title;
         document.getElementById('mTagline').textContent = d.tagline;
-        document.getElementById('mBrief').textContent = d.brief;
-        document.getElementById('mApproach').textContent = d.approach;
-        document.getElementById('mOutcome').textContent = d.outcome;
+        document.getElementById('mBrief').innerHTML = d.brief;
+        document.getElementById('mApproach').innerHTML = d.approach;
+        document.getElementById('mOutcome').innerHTML = d.outcome;
         document.getElementById('mBefore').textContent = d.before;
         document.getElementById('mAfter').textContent = d.after;
         // results
