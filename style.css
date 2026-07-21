@@ -2865,3 +2865,24 @@
 .case-study h4 { margin-top: 24px; margin-bottom: 8px; color: var(--tm); }
 .case-study p { color: var(--tm); margin-bottom: 16px; line-height: 1.6; font-size: 0.95rem; }
 
+
+/* NEW: POPULAR SAAS ANIMATION STYLES GRID */
+.styles-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--b);
+    border: 1px solid var(--b);
+}
+
+@media (max-width: 1024px) {
+    .styles-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .styles-grid {
+        grid-template-columns: 1fr;
+    }
+}
