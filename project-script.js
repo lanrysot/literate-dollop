@@ -79,8 +79,8 @@
         },
         {
           cat: "Promotional", client: "Launchly",
-          title: "AI Product Launch — A Campaign Video That Made People Stop Scrolling",
-          tagline: "Launchly's AI tool was launching into a crowded market. The launch video needed to feel genuinely different — not another tech startup montage with stock footage and buzzwords.",
+          title: "AI Product Launch — Turning Ideas Into Apps",
+          tagline: "Launchly is an AI that instantly turns ideas into fully functioning apps. The launch video needed to clearly demonstrate this 'magic' while standing out in a crowded tech market.",
                               details: [
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>', title: 'Project Overview', content: 'Create a 90-second product launch video introducing Launchly\'s AI-powered campaign platform. The video will be used on the homepage, in paid LinkedIn campaigns, and by the sales team during product demos.' },
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>', title: 'The Brief', content: 'Launchly was preparing for a new product launch targeting operations managers at growing companies. The goal was to clearly communicate the platform\'s value in under 90 seconds while positioning it as a faster, smarter alternative to outdated campaign methods. The video needed to work across multiple channels without requiring different edits.' },
