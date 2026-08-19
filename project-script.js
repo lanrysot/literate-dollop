@@ -54,8 +54,8 @@
         },
         {
           cat: "Product Demo", client: "Vortic",
-          title: "Fintech Product Demo — Showing How Payments Work in Under 2 Minutes",
-          tagline: "Quickcollect's payment collection tool was seeing high sign-up intent but users were dropping off during onboarding. The product worked well — the problem was clarity, not functionality.",
+          title: "AI Product Demo — Showcasing Agentic AI Capabilities",
+          tagline: "Vortic's agentic AI platform was seeing high interest, but users struggled to understand its autonomous capabilities. The product was powerful — the problem was communicating that power clearly.",
                               details: [
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>', title: 'Project Overview', content: 'Create a 90-second product launch video introducing WorkNest\'s AI-powered project management platform. The video will be used on the homepage, in paid LinkedIn campaigns, and by the sales team during product demos.' },
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>', title: 'The Brief', content: 'WorkNest was preparing for a new product launch targeting operations managers at growing companies. The goal was to clearly communicate the platform\'s value in under 90 seconds while positioning it as a faster, smarter alternative to manual project management tools. The video needed to work across multiple channels without requiring different edits.' },
@@ -71,8 +71,8 @@
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"></polyline><polyline points="23 20 23 14 17 14"></polyline><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path></svg>', title: 'Review & Iteration', content: 'Multiple review rounds refined pacing, typography, and feature prioritization. Small adjustments to timing and visual emphasis significantly improved clarity while keeping the overall runtime concise.' },
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>', title: 'The Outcome', content: 'The final video became the company\'s primary product explainer across marketing and sales. It was featured on the homepage, included in outbound sales presentations, and repurposed for paid social campaigns, giving the product team a consistent asset across every stage of the customer journey.' }
           ],
-          before: "31% of new sign-ups were abandoning onboarding before completing their first payment setup. Support tickets were high volume and low-complexity — users just didn't know where to start.",
-          after: "Onboarding drop-off reduced by 31%. Support ticket volume down 22%. Users who watched the video were 2.4x more likely to complete their first transaction within 24 hours.",
+          before: "31% of new sign-ups were abandoning onboarding before completing their first AI agent setup. Support tickets were high volume and low-complexity — users just didn't know where to start.",
+          after: "Onboarding drop-off reduced by 31%. Support ticket volume down 22%. Users who watched the video were 2.4x more likely to deploy their first AI agent within 24 hours.",
           results: [{ n: "31%", l: "Less Drop-off" }, { n: "2.4x", l: "Faster Activation" }, { n: "22%", l: "Fewer Support Tickets" }],
           tools: ["Blender", "Cinema 4D", "After Effects", "Figma"],
           video: "https://drive.google.com/file/d/1MdPo-7x94sAU1j9AbWgAJkNmqvnkghQB/preview"
