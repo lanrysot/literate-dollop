@@ -53,7 +53,7 @@
           video: "https://drive.google.com/file/d/1gfklk706eVMREZobz3PLwufOm9mfV7Xw/preview"
         },
         {
-          cat: "Product Demo", client: "Bankleva",
+          cat: "Product Demo", client: "Vortic",
           title: "Fintech Product Demo — Showing How Payments Work in Under 2 Minutes",
           tagline: "Quickcollect's payment collection tool was seeing high sign-up intent but users were dropping off during onboarding. The product worked well — the problem was clarity, not functionality.",
                               details: [
@@ -75,7 +75,7 @@
           after: "Onboarding drop-off reduced by 31%. Support ticket volume down 22%. Users who watched the video were 2.4x more likely to complete their first transaction within 24 hours.",
           results: [{ n: "31%", l: "Less Drop-off" }, { n: "2.4x", l: "Faster Activation" }, { n: "22%", l: "Fewer Support Tickets" }],
           tools: ["Blender", "Cinema 4D", "After Effects", "Figma"],
-          video: "https://www.youtube.com/embed/74j-l-0pw68?si=E5JVmwmpIw97LW-8"
+          video: "https://drive.google.com/file/d/1MdPo-7x94sAU1j9AbWgAJkNmqvnkghQB/preview"
         },
         {
           cat: "Promotional", client: "Kajota",
