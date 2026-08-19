@@ -25,7 +25,7 @@
           after: "-",
           results: [{ n: "1", l: "Primary Asset" }, { n: "90s", l: "Explainer Video" }, { n: "Multi", l: "Channel Usage" }],
           tools: ["Figma", "After Effects", "Premiere Pro", "Audition"],
-          video: "https://www.youtube.com/embed/Rk3NoCbwouI?si=J8BgXo0mz7732tSr"
+          video: "https://drive.google.com/file/d/1gfklk706eVMREZobz3PLwufOm9mfV7Xw/preview"
         },
         {
           cat: "Explainer", client: "WorkNest",
@@ -50,7 +50,7 @@
           after: "Bounce rate dropped to 48%. Demo requests up 42% in the first 30 days. Sales reps now use the video to pre-educate, cutting call time by an average of 12 minutes.",
           results: [{ n: "42%", l: "More Demo Requests" }, { n: "26pt", l: "Bounce Rate Drop" }, { n: "12min", l: "Saved Per Sales Call" }],
           tools: ["After Effects", "Adobe Illustrator", "Premiere Pro", "Audition"],
-          video: "https://www.youtube.com/embed/Rk3NoCbwouI?si=J8BgXo0mz7732tSr"
+          video: "https://drive.google.com/file/d/1gfklk706eVMREZobz3PLwufOm9mfV7Xw/preview"
         },
         {
           cat: "Product Demo", client: "Bankleva",
