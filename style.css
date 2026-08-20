@@ -2196,6 +2196,9 @@
      .nav-links {
          display: none
      }
+    .nav-cta { display: none; }
+    .mobile-menu-btn { display: flex; align-items: center; justify-content: center; }
+    .mobile-menu-btn { display: flex; align-items: center; justify-content: center; margin-left: auto; margin-right: 16px; }
  }
 
  @media(max-width:768px) {
@@ -2891,4 +2894,102 @@
     .sc {
         padding: 30px 20px;
     }
+}/* MOBILE MENU */
+.mobile-menu-btn {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  z-index: 201;
+}
+.mobile-menu-btn span {
+  width: 24px;
+  height: 2px;
+  background: var(--tp);
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+.mobile-menu-btn.active span:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+.mobile-menu-btn.active span:nth-child(2) {
+  opacity: 0;
+}
+.mobile-menu-btn.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(3, 7, 20, .98);
+  backdrop-filter: blur(20px);
+  z-index: 199;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(100%);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  visibility: hidden;
+}
+.mobile-menu.active {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+}
+.mobile-menu-inner {
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+}
+.mobile-logo {
+  font-family: var(--f);
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: -1px;
+  color: var(--tp);
+  text-decoration: none;
+  margin-bottom: 40px;
+  display: block;
+}
+.mobile-logo .dot {
+  color: var(--ac);
+}
+.mobile-nav-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.mobile-nav-ul a {
+  color: var(--tm);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.mobile-nav-ul a:hover,
+.mobile-nav-ul a.active {
+  color: var(--tp);
+}
+.mobile-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--ac);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
 }
