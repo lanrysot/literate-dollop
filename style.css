@@ -1,4 +1,4 @@
- *,
+﻿ *,
  *::before,
  *::after {
      margin: 0;
@@ -2884,5 +2884,11 @@
 @media (max-width: 768px) {
     .styles-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .sc {
+        padding: 30px 20px;
     }
 }
