@@ -1195,8 +1195,8 @@
  }
 
  .srv-grid {
-     display: grid;
-     grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
      gap: 1px;
      background: var(--b);
      border: 1px solid var(--b)
@@ -1316,8 +1316,8 @@
  }
 
  .srv-grid {
-     display: grid;
-     grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
      gap: 1px;
      background: var(--b);
      border: 1px solid var(--b)
