@@ -2993,3 +2993,17 @@
   font-weight: 600;
   text-decoration: none;
 }
+
+.sc-thumb {
+    position: relative;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    background: var(--bg2);
+    margin: -50px -40px 30px -40px;
+    border-bottom: 1px solid var(--b);
+}
+@media (max-width: 768px) {
+    .sc-thumb {
+        margin: -30px -20px 20px -20px;
+    }
+}
