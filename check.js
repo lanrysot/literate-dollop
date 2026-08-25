@@ -1,1 +1,1 @@
-﻿var fso = new ActiveXObject('Scripting.FileSystemObject'); var text = fso.OpenTextFile('project-script.js', 1).ReadAll(); try { eval(text); WScript.Echo('Syntax OK'); } catch(e) { WScript.Echo(e.name + ': ' + e.message); }
+var fso = new ActiveXObject('Scripting.FileSystemObject'); var text = fso.OpenTextFile('project-script.js', 1).ReadAll(); try { eval(text); WScript.Echo('Syntax OK'); } catch(e) { WScript.Echo(e.name + ': ' + e.message); }

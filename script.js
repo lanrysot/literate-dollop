@@ -1,8 +1,8 @@
-﻿(function () {
+(function () {
     "use strict";
 
-    /* ── CURSOR ── */
-    // ── Cursor
+    /* -- CURSOR -- */
+    // -- Cursor
     const cur = document.getElementById('cur'), ring = document.getElementById('ring');
     let mx = 0, my = 0, rx = 0, ry = 0;
     document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; cur.style.left = mx + 'px'; cur.style.top = my + 'px'; });
@@ -12,13 +12,13 @@
         el.addEventListener('mouseleave', () => { cur.style.width = '7px'; cur.style.height = '7px'; ring.style.width = '30px'; ring.style.height = '30px'; ring.style.borderColor = 'var(--acgs)'; });
     });
 
-    // ── Scroll reveal
+    // -- Scroll reveal
     const obs = new IntersectionObserver(entries => {
         entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); obs.unobserve(e.target); } });
     }, { threshold: .08, rootMargin: '0px 0px -32px 0px' });
     document.querySelectorAll('.r').forEach(el => obs.observe(el));
 
-    /* ── PARTICLE CANVAS ── */
+    /* -- PARTICLE CANVAS -- */
     var CV = document.getElementById('bgc');
     var CTX = CV.getContext('2d');
     var W, H, PTS = [];
@@ -73,13 +73,13 @@
     }
     drawCv();
 
-    /* ── NAV ── */
+    /* -- NAV -- */
     var NAV = document.getElementById('nav');
     window.addEventListener('scroll', function () {
         NAV.classList.toggle('sc', window.scrollY > 60);
     });
 
-    /* ── SCROLL REVEAL ── */
+    /* -- SCROLL REVEAL -- */
     var rvEls = document.querySelectorAll('.rv');
     requestAnimationFrame(function () {
         for (var ri = 0; ri < rvEls.length; ri++) rvEls[ri].classList.add('hi');
@@ -101,7 +101,7 @@
         });
     });
 
-    /* ── STAT COUNTERS ── */
+    /* -- STAT COUNTERS -- */
     function counter(el) {
         var to = parseInt(el.getAttribute('data-to'), 10);
         var suf = el.getAttribute('data-suf') || '';
