@@ -2,35 +2,11 @@
       "use strict";
 
       /* -- CASE STUDY DATA -- */
-      var PROJECTS = [        {
-          cat: "Explainer", client: "WorkNest",
-          title: "WorkNest AI-Powered Project Management Platform",
-          tagline: "The video will be used on the homepage, in paid LinkedIn campaigns, and by the sales team during product demos.",
-          details: [
-            { title: "Project Overview", content: "Create a 90-second product launch video introducing WorkNest's AI-powered project management platform. The video will be used on the homepage, in paid LinkedIn campaigns, and by the sales team during product demos." },
-            { title: "The Brief", content: "WorkNest was preparing for a new product launch targeting operations managers at growing companies. The goal was to clearly communicate the platform's value in under 90 seconds while positioning it as a faster, smarter alternative to manual project management tools. The video needed to work across multiple channels without requiring different edits." },
-            { title: "Research", content: "I spent time understanding the product from the perspective of a first-time user, mapping the onboarding flow, key features, and most common pain points. I also reviewed competitor videos from Asana, Monday.com, ClickUp, and Notion to identify common messaging patterns and opportunities to differentiate the narrative." },
-            { title: "Creative Strategy", content: "Rather than explaining every feature, I focused the story around one measurable benefit: helping teams save time every week. This became the central message, allowing every animation, transition, and UI sequence to reinforce a single outcome instead of competing for attention." },
-            { title: "Script Development", content: "The script followed a simple progression: introduce the problem, highlight the frustrations of manual project management, demonstrate how WorkNest solves those challenges through AI automation, and finish with a clear invitation to start a free trial." },
-            { title: "Storyboard", content: "Each scene was sketched before animation began, allowing the pacing and visual hierarchy to be reviewed early. This helped validate the narrative flow before investing time in design and motion." },
-            { title: "Animatic", content: "Before production, I assembled a timed animatic using storyboard frames and the approved voiceover to validate pacing, scene timing, and narrative flow. This allowed key stakeholders to review the structure and make adjustments before animation began, reducing revisions later in production." },
-            { title: "Style Exploration", content: "The visual language combined clean typography, generous spacing, subtle gradients, and minimal interface design. Motion references were inspired by modern SaaS brands, emphasizing clarity over decorative animation." },
-            { title: "Asset Design", content: "Product screens were recreated in Figma to ensure consistency and flexibility during animation. Supporting assets including icons, graphs, interface cards, and illustrations were designed as reusable components to maintain visual consistency throughout the project." },
-            { title: "Animation", content: "Animation focused on communicating functionality rather than showcasing effects. UI interactions, cursor movements, graph animations, and smooth transitions guided the viewer through the product naturally, keeping attention on the story rather than the motion itself." },
-            { title: "Sound Design", content: "Subtle interface sounds, transitions, and a modern background track reinforced the feeling of using a responsive digital product without distracting from the narration." },
-            { title: "Review & Iteration", content: "Multiple review rounds refined pacing, typography, and feature prioritization. Small adjustments to timing and visual emphasis significantly improved clarity while keeping the overall runtime concise." },
-            { title: "The Outcome", content: "The final video became the company's primary product explainer across marketing and sales. It was featured on the homepage, included in outbound sales presentations, and repurposed for paid social campaigns, giving the product team a consistent asset across every stage of the customer journey." }
-          ],
-          before: "-",
-          after: "-",
-          results: [{ n: "1", l: "Primary Asset" }, { n: "90s", l: "Explainer Video" }, { n: "Multi", l: "Channel Usage" }],
-          tools: ["Figma", "After Effects", "Premiere Pro", "Audition"],
-          video: "https://www.youtube.com/embed/YomVRgUijFU"
-        },
+      var PROJECTS = [
         {
-          cat: "Explainer", client: "WorkNest",
-          title: "SaaS Platform Explainer - Turning a Complex Dashboard Into a 90-Second Story",
-          tagline: "WorkNest needed their platform's core value communicated clearly for an enterprise audience with zero prior product knowledge. The challenge: explain a 14-feature dashboard in under 90 seconds without dumbing it down.",
+          cat: "Brand Motion", client: "Hushly",
+          title: "Hushly - Hotel Management Platform - Turning Daily Hotel Operations into One Connected Workflow",
+          tagline: "Hushly's hotel management platform needed a cohesive motion identity to explain their unified workflow. The challenge was maintaining brand consistency across various hotel operations videos.",
                               details: [
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>', title: 'Project Overview', content: 'Create a 90-second product launch video introducing WorkNest\'s AI-powered project management platform. The video will be used on the homepage, in paid LinkedIn campaigns, and by the sales team during product demos.' },
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>', title: 'The Brief', content: 'WorkNest was preparing for a new product launch targeting operations managers at growing companies. The goal was to clearly communicate the platform\'s value in under 90 seconds while positioning it as a faster, smarter alternative to manual project management tools. The video needed to work across multiple channels without requiring different edits.' },
@@ -46,11 +22,11 @@
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"></polyline><polyline points="23 20 23 14 17 14"></polyline><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path></svg>', title: 'Review & Iteration', content: 'Multiple review rounds refined pacing, typography, and feature prioritization. Small adjustments to timing and visual emphasis significantly improved clarity while keeping the overall runtime concise.' },
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>', title: 'The Outcome', content: 'The final video became the company\'s primary product explainer across marketing and sales. It was featured on the homepage, included in outbound sales presentations, and repurposed for paid social campaigns, giving the product team a consistent asset across every stage of the customer journey.' }
           ],
-          before: "Prospects visited the homepage and left without booking a demo Ã¢â‚¬â€ bounce rate was 74%. Sales reps were spending 20 minutes per call explaining the product before any real conversation started.",
-          after: "Bounce rate dropped to 48%. Demo requests up 42% in the first 30 days. Sales reps now use the video to pre-educate, cutting call time by an average of 12 minutes.",
-          results: [{ n: "42%", l: "More Demo Requests" }, { n: "26pt", l: "Bounce Rate Drop" }, { n: "12min", l: "Saved Per Sales Call" }],
-          tools: ["After Effects", "Adobe Illustrator", "Premiere Pro", "Audition"],
-          video: "https://www.youtube.com/embed/YomVRgUijFU"
+          before: "Each video Hushly produced looked like it came from a different company. Brand recognition in customer surveys: 29%. Marketing team had no motion templates to work from independently.",
+          after: "Brand consistency score: 91% (up from 29%). Customer survey recognition up 58%. Marketing team produces 4x more video content using the template system. 3 industry publications featured the brand identity.",
+          results: [{ n: "58%", l: "Brand Recognition Up" }, { n: "91%", l: "Consistency Score" }, { n: "4x", l: "More Content Output" }],
+          tools: ["After Effects", "Cinema 4D", "Illustrator", "Premiere Pro"],
+          video: "https://www.youtube.com/embed/8qqgFdPYB-8"
         },
         {
           cat: "Product Demo", client: "Vortic",
@@ -153,9 +129,9 @@
           video: "https://www.youtube.com/embed/6MFHlMs1VDI"
         },
         {
-          cat: "Brand Motion", client: "Hushly",
-          title: "Hushly - Hotel Management Platform - Turning Daily Hotel Operations into One Connected Workflow",
-          tagline: "Hushly's hotel management platform needed a cohesive motion identity to explain their unified workflow. The challenge was maintaining brand consistency across various hotel operations videos.",
+          cat: "Explainer", client: "WorkNest",
+          title: "SaaS Platform Explainer - Turning a Complex Dashboard Into a 90-Second Story",
+          tagline: "WorkNest needed their platform's core value communicated clearly for an enterprise audience with zero prior product knowledge. The challenge: explain a 14-feature dashboard in under 90 seconds without dumbing it down.",
                               details: [
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>', title: 'Project Overview', content: 'Create a 90-second product launch video introducing WorkNest\'s AI-powered project management platform. The video will be used on the homepage, in paid LinkedIn campaigns, and by the sales team during product demos.' },
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>', title: 'The Brief', content: 'WorkNest was preparing for a new product launch targeting operations managers at growing companies. The goal was to clearly communicate the platform\'s value in under 90 seconds while positioning it as a faster, smarter alternative to manual project management tools. The video needed to work across multiple channels without requiring different edits.' },
@@ -171,11 +147,11 @@
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"></polyline><polyline points="23 20 23 14 17 14"></polyline><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path></svg>', title: 'Review & Iteration', content: 'Multiple review rounds refined pacing, typography, and feature prioritization. Small adjustments to timing and visual emphasis significantly improved clarity while keeping the overall runtime concise.' },
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>', title: 'The Outcome', content: 'The final video became the company\'s primary product explainer across marketing and sales. It was featured on the homepage, included in outbound sales presentations, and repurposed for paid social campaigns, giving the product team a consistent asset across every stage of the customer journey.' }
           ],
-          before: "Each video Hushly produced looked like it came from a different company. Brand recognition in customer surveys: 29%. Marketing team had no motion templates to work from independently.",
-          after: "Brand consistency score: 91% (up from 29%). Customer survey recognition up 58%. Marketing team produces 4x more video content using the template system. 3 industry publications featured the brand identity.",
-          results: [{ n: "58%", l: "Brand Recognition Up" }, { n: "91%", l: "Consistency Score" }, { n: "4x", l: "More Content Output" }],
-          tools: ["After Effects", "Cinema 4D", "Illustrator", "Premiere Pro"],
-          video: "https://www.youtube.com/embed/8qqgFdPYB-8"
+          before: "Prospects visited the homepage and left without booking a demo Ã¢â‚¬â€ bounce rate was 74%. Sales reps were spending 20 minutes per call explaining the product before any real conversation started.",
+          after: "Bounce rate dropped to 48%. Demo requests up 42% in the first 30 days. Sales reps now use the video to pre-educate, cutting call time by an average of 12 minutes.",
+          results: [{ n: "42%", l: "More Demo Requests" }, { n: "26pt", l: "Bounce Rate Drop" }, { n: "12min", l: "Saved Per Sales Call" }],
+          tools: ["After Effects", "Adobe Illustrator", "Premiere Pro", "Audition"],
+          video: "https://www.youtube.com/embed/YomVRgUijFU"
         }
       ];
 
