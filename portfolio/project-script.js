@@ -130,7 +130,7 @@
         },
         {
           cat: "Explainer", client: "WorkNest",
-          title: "SaaS Platform Explainer - Turning a Complex Dashboard Into a 90-Second Story",
+          title: "WorkNest - All in One AI Workspace Platform - Turning Team Chaos into Synchronized Productivity",
           tagline: "WorkNest needed their platform's core value communicated clearly for an enterprise audience with zero prior product knowledge. The challenge: explain a 14-feature dashboard in under 90 seconds without dumbing it down.",
                               details: [
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>', title: 'Project Overview', content: 'Create a 90-second product launch video introducing WorkNest\'s AI-powered project management platform. The video will be used on the homepage, in paid LinkedIn campaigns, and by the sales team during product demos.' },
