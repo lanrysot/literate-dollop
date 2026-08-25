@@ -4,7 +4,7 @@
       /* -- CASE STUDY DATA -- */
       var PROJECTS = [
         {
-          cat: "Brand Motion", client: "Hushly",
+          cat: "Explainer", client: "Hushly",
           title: "Hushly - Hotel Management Platform - Turning Daily Hotel Operations into One Connected Workflow",
           tagline: "Hushly's hotel management platform needed a cohesive motion identity to explain their unified workflow. The challenge was maintaining brand consistency across various hotel operations videos.",
                               details: [
