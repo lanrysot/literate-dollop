@@ -29,7 +29,7 @@
         },
         {
           cat: "Explainer", client: "WorkNest",
-          title: "SaaS Platform Explainer Ã¢â‚¬â€ Turning a Complex Dashboard Into a 90-Second Story",
+          title: "SaaS Platform Explainer - Turning a Complex Dashboard Into a 90-Second Story",
           tagline: "WorkNest needed their platform's core value communicated clearly for an enterprise audience with zero prior product knowledge. The challenge: explain a 14-feature dashboard in under 90 seconds without dumbing it down.",
                               details: [
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>', title: 'Project Overview', content: 'Create a 90-second product launch video introducing WorkNest\'s AI-powered project management platform. The video will be used on the homepage, in paid LinkedIn campaigns, and by the sales team during product demos.' },
@@ -54,7 +54,7 @@
         },
         {
           cat: "Product Demo", client: "Vortic",
-          title: "AI Product Demo Ã¢â‚¬â€ Showcasing Agentic AI Capabilities",
+          title: "AI Product Demo - Showcasing Agentic AI Capabilities",
           tagline: "Vortic's agentic AI platform was seeing high interest, but users struggled to understand its autonomous capabilities. The product was powerful - the problem was communicating that power clearly.",
                               details: [
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>', title: 'Project Overview', content: 'Create a 90-second product launch video introducing Vortic\'s AI-powered Agentic AI platform. The video will be used on the homepage, in paid LinkedIn campaigns, and by the sales team during product demos.' },
@@ -79,7 +79,7 @@
         },
         {
           cat: "Promotional", client: "Launchly",
-          title: "AI Product Launch Ã¢â‚¬â€ Turning Ideas Into Apps",
+          title: "AI Product Launch - Turning Ideas Into Apps",
           tagline: "Launchly is an AI that instantly turns ideas into fully functioning apps. The launch video needed to clearly demonstrate this 'magic' while standing out in a crowded tech market.",
                               details: [
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>', title: 'Project Overview', content: 'Create a 90-second product launch video introducing Launchly\'s AI-powered app generation platform. The video will be used on the homepage, in paid LinkedIn campaigns, and by the sales team during product demos.' },
