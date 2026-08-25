@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
     "use strict";
 
     /* -- CURSOR -- */
@@ -120,7 +120,7 @@
 
     var statEls = document.querySelectorAll('.stn[data-to]');
 
-    // Fire immediately — stats are in the viewport on load
+    // Fire immediately Ã¢â‚¬â€ stats are in the viewport on load
     for (var si = 0; si < statEls.length; si++) counter(statEls[si]);
 
     // Also watch for small-screen cases
