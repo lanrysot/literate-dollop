@@ -104,7 +104,7 @@
         },
         {
           cat: "UI/UX Animation", client: "EchoOne AI",
-          title: "App UI Animation System Ã¢â‚¬â€ Making a Review Platform Feel Alive",
+          title: "EchoOne AI - Agentic AI Platform - Turning Multi-Agent Actions into an Intuitive Workflow",
           tagline: "EchoOne AI's multi-agent platform is powerful but complex to explain. They needed a motion system to turn complex agentic actions into an intuitive, visual workflow.",
                               details: [
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>', title: 'Project Overview', content: 'Create a 90-second product launch video introducing WorkNest\'s AI-powered project management platform. The video will be used on the homepage, in paid LinkedIn campaigns, and by the sales team during product demos.' },
@@ -129,7 +129,7 @@
         },
         {
           cat: "Explainer", client: "Quicken",
-          title: "B2B SaaS Explainer - Breaking Down a Multi-Feature Platform in 2 Minutes",
+          title: "Quicken - FinTech Payment - Simplifying Payments with Real-Time Financial Visibility",
           tagline: "Quicken's sales team was relying on a 20-slide deck to explain their real-time payment visibility. The complex pitch was losing deals, requiring a clear, 2-minute visual explanation.",
                               details: [
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>', title: 'Project Overview', content: 'Create a 90-second product launch video introducing WorkNest\'s AI-powered project management platform. The video will be used on the homepage, in paid LinkedIn campaigns, and by the sales team during product demos.' },
@@ -154,7 +154,7 @@
         },
         {
           cat: "Brand Motion", client: "Hushly",
-          title: "Brand Identity in Motion Ã¢â‚¬â€ Logo Animation &amp; Full Brand Motion System",
+          title: "Hushly - Hotel Management Platform - Turning Daily Hotel Operations into One Connected Workflow",
           tagline: "Hushly's hotel management platform needed a cohesive motion identity to explain their unified workflow. The challenge was maintaining brand consistency across various hotel operations videos.",
                               details: [
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>', title: 'Project Overview', content: 'Create a 90-second product launch video introducing WorkNest\'s AI-powered project management platform. The video will be used on the homepage, in paid LinkedIn campaigns, and by the sales team during product demos.' },
