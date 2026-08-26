@@ -1,4 +1,4 @@
-﻿(function () {
+(function () {
       "use strict";
 
       /* -- CASE STUDY DATA -- */
@@ -47,7 +47,7 @@
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"></polyline><polyline points="23 20 23 14 17 14"></polyline><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path></svg>', title: 'Review & Iteration', content: 'Multiple review rounds refined pacing, typography, and feature prioritization. Small adjustments to timing and visual emphasis significantly improved clarity while keeping the overall runtime concise.' },
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>', title: 'The Outcome', content: 'The final video became the company\'s primary product explainer across marketing and sales. It was featured on the homepage, included in outbound sales presentations, and repurposed for paid social campaigns, giving the product team a consistent asset across every stage of the customer journey.' }
           ],
-          before: "31% of new sign-ups were abandoning onboarding before completing their first AI agent setup. Support tickets were high volume and low-complexity Ã¢â‚¬â€ users just didn't know where to start.",
+          before: "31% of new sign-ups were abandoning onboarding before completing their first AI agent setup. Support tickets were high volume and low-complexity Ã¢â‚¬” users just didn't know where to start.",
           after: "Onboarding drop-off reduced by 31%. Support ticket volume down 22%. Users who watched the video were 2.4x more likely to deploy their first AI agent within 24 hours.",
           results: [{ n: "31%", l: "Less Drop-off" }, { n: "2.4x", l: "Faster Activation" }, { n: "22%", l: "Fewer Support Tickets" }],
           tools: ["Blender", "Cinema 4D", "After Effects", "Figma"],
@@ -147,7 +147,7 @@
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"></polyline><polyline points="23 20 23 14 17 14"></polyline><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path></svg>', title: 'Review & Iteration', content: 'Multiple review rounds refined pacing, typography, and feature prioritization. Small adjustments to timing and visual emphasis significantly improved clarity while keeping the overall runtime concise.' },
             { icon: '<svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>', title: 'The Outcome', content: 'The final video became the company\'s primary product explainer across marketing and sales. It was featured on the homepage, included in outbound sales presentations, and repurposed for paid social campaigns, giving the product team a consistent asset across every stage of the customer journey.' }
           ],
-          before: "Prospects visited the homepage and left without booking a demo Ã¢â‚¬â€ bounce rate was 74%. Sales reps were spending 20 minutes per call explaining the product before any real conversation started.",
+          before: "Prospects visited the homepage and left without booking a demo Ã¢â‚¬” bounce rate was 74%. Sales reps were spending 20 minutes per call explaining the product before any real conversation started.",
           after: "Bounce rate dropped to 48%. Demo requests up 42% in the first 30 days. Sales reps now use the video to pre-educate, cutting call time by an average of 12 minutes.",
           results: [{ n: "42%", l: "More Demo Requests" }, { n: "26pt", l: "Bounce Rate Drop" }, { n: "12min", l: "Saved Per Sales Call" }],
           tools: ["After Effects", "Adobe Illustrator", "Premiere Pro", "Audition"],
