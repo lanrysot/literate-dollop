@@ -39,7 +39,7 @@
      font-weight: 400;
      overflow-x: hidden;
      -webkit-font-smoothing: antialiased;
-     cursor: none;
+     
 
  }
 
@@ -1183,7 +1183,7 @@
      position: relative;
      overflow: hidden;
      transition: background .4s;
-     cursor: none
+     
  }
 
  .sc::before {
@@ -1304,7 +1304,7 @@
      position: relative;
      overflow: hidden;
      transition: background .4s;
-     cursor: none
+     
  }
 
  .sc::before {
