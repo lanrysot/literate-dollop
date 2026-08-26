@@ -1,17 +1,6 @@
 (function () {
     "use strict";
 
-    /* -- CURSOR -- */
-    // -- Cursor
-    const cur = document.getElementById('cur'), ring = document.getElementById('ring');
-    let mx = 0, my = 0, rx = 0, ry = 0;
-    document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; cur.style.left = mx + 'px'; cur.style.top = my + 'px'; });
-    (function loop() { rx += (mx - rx) * .13; ry += (my - ry) * .13; ring.style.left = rx + 'px'; ring.style.top = ry + 'px'; requestAnimationFrame(loop); })();
-    document.querySelectorAll('a,button,.svc-card,.why-card,.proc-step,.h-stat').forEach(el => {
-        el.addEventListener('mouseenter', () => { cur.style.width = '12px'; cur.style.height = '12px'; ring.style.width = '52px'; ring.style.height = '52px'; ring.style.borderColor = 'var(--bh)'; });
-        el.addEventListener('mouseleave', () => { cur.style.width = '7px'; cur.style.height = '7px'; ring.style.width = '30px'; ring.style.height = '30px'; ring.style.borderColor = 'var(--acgs)'; });
-    });
-
     // -- Scroll reveal
     const obs = new IntersectionObserver(entries => {
         entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); obs.unobserve(e.target); } });

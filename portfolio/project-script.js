@@ -155,19 +155,6 @@
         }
       ];
 
-      /* -- CURSOR -- */
-      var DOT = document.getElementById('cd'), RING = document.getElementById('cr');
-      var mx = window.innerWidth / 2, my = window.innerHeight / 2, rx = mx, ry = my, big = false;
-      function sd(x, y) { DOT.style.transform = 'translate(' + (x - 4) + 'px,' + (y - 4) + 'px)'; }
-      sd(mx, my);
-      document.addEventListener('mousemove', function (e) { mx = e.clientX; my = e.clientY; sd(mx, my); });
-      var hels = document.querySelectorAll('a,button,.pcard,.ftag,.pill,.modal-close,.modal-play');
-      for (var hi = 0; hi < hels.length; hi++) {
-        hels[hi].addEventListener('mouseenter', function () { RING.classList.add('big'); big = true; });
-        hels[hi].addEventListener('mouseleave', function () { RING.classList.remove('big'); big = false; });
-      }
-      (function ar() { rx += (mx - rx) * .11; ry += (my - ry) * .11; RING.style.transform = 'translate(' + (rx - (big ? 29 : 18)) + 'px,' + (ry - (big ? 29 : 18)) + 'px)'; requestAnimationFrame(ar); })();
-
       /* -- PARTICLE CANVAS -- */
       var CV = document.getElementById('bgc'), CTX = CV.getContext('2d'), W, H, PTS = [];
       function rsz() { W = CV.width = window.innerWidth; H = CV.height = window.innerHeight; }
